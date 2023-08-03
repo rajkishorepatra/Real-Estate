@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './components/About';
+import Consult from './components/Consult';
+import Content1 from './components/Content1';
+import Content2 from './components/Content2';
+import Figures from './components/Figures';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import NavBar from './components/NavBar';
+import Testimonials from './components/Testimonials';
 
 function App() {
+  document.body.style.overflowX = "hidden";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Hero />
+      <Content1 />
+      <Content2 />
+      <Figures />
+      <About />
+      <Testimonials />
+      <Consult />
+      <Footer />
+    </>
   );
 }
 
