@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/Real-Estate/static/css/main.acc418e1.css",
-    "main.js": "/Real-Estate/static/js/main.c3ec71fd.js",
-    "static/media/bgimg.jpg": "/Real-Estate/static/media/bgimg.6b0f9b07337ee730e893.jpg",
-    "static/media/bgimg1.jpg": "/Real-Estate/static/media/bgimg1.9169ecd3e6828360ee0c.jpg",
-    "static/media/real-estate-2.jpg": "/Real-Estate/static/media/real-estate-2.29f0299e8196636aed33.jpg",
-    "static/media/hero-image.webp": "/Real-Estate/static/media/hero-image.a5c1b3e71b1c4c8e4d21.webp",
+    "main.css": "/Real-Estate/static/css/main.97baa586.css",
+    "main.js": "/Real-Estate/static/js/main.3179ebba.js",
+    "static/media/img2.jpg": "/Real-Estate/static/media/img2.5b8b2206b38e526aaa0a.jpg",
+    "static/media/img3.jpg": "/Real-Estate/static/media/img3.120343c976581b1e844e.jpg",
+    "static/media/img4.jpg": "/Real-Estate/static/media/img4.eaa775c6d9d295de4907.jpg",
+    "static/media/bgimg.jpg": "/Real-Estate/static/media/bgimg.cd350afa798885db5178.jpg",
+    "static/media/img9.jpg": "/Real-Estate/static/media/img9.03c5bb2558642f1d8d99.jpg",
+    "static/media/img5.jpg": "/Real-Estate/static/media/img5.87443339f0c40f969bb7.jpg",
+    "static/media/img10.jpg": "/Real-Estate/static/media/img10.181984ba1650741eff97.jpg",
+    "static/media/img8.jpg": "/Real-Estate/static/media/img8.1943a4bd265b46f82a81.jpg",
+    "static/media/img7.jpg": "/Real-Estate/static/media/img7.f413c78fac987571488d.jpg",
+    "static/media/img6.jpg": "/Real-Estate/static/media/img6.c480d5f772ead3a7e27a.jpg",
+    "static/media/img1.jpg": "/Real-Estate/static/media/img1.fe8050e7e03419dbdd07.jpg",
     "static/media/man.png": "/Real-Estate/static/media/man.cc612da5c4db065ce576.png",
     "static/media/GreyWave.png": "/Real-Estate/static/media/GreyWave.9d3f2a6a2c707dd309ac.png",
+    "static/media/logo.png": "/Real-Estate/static/media/logo.0bb13d3dc9117d009ca1.png",
     "index.html": "/Real-Estate/index.html",
-    "main.acc418e1.css.map": "/Real-Estate/static/css/main.acc418e1.css.map",
-    "main.c3ec71fd.js.map": "/Real-Estate/static/js/main.c3ec71fd.js.map"
+    "main.97baa586.css.map": "/Real-Estate/static/css/main.97baa586.css.map",
+    "main.3179ebba.js.map": "/Real-Estate/static/js/main.3179ebba.js.map"
   },
   "entrypoints": [
-    "static/css/main.acc418e1.css",
-    "static/js/main.c3ec71fd.js"
+    "static/css/main.97baa586.css",
+    "static/js/main.3179ebba.js"
   ]
 }
