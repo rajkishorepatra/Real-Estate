@@ -1,13 +1,12 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
-import realImg1 from '../img/bgimg.jpg'
 import { Button } from 'react-bootstrap'
 import { Fade } from 'react-reveal'
 
 function Consult() {
     return (
         <>
-            <Parallax bgImage={realImg1} strength={500} style={{width:"100vw"}}>
+            <Parallax bgImage='https://ik.imagekit.io/dqe4fvjcky/H2_Square/bgimg-min_528sltV8z.jpg?updatedAt=1691328914968' strength={500} style={{width:"100vw"}}>
                 <div className='d-flex aboutMain' id='contact'>
                     <Fade>
                         <div className='aboutData1 text-white'>

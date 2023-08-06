@@ -1,6 +1,5 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
-import realImg1 from '../img/img10.jpg'
 import { Button } from 'react-bootstrap'
 import { Fade } from 'react-reveal'
 
@@ -8,7 +7,7 @@ function About() {
     return (
         <>
         
-            <Parallax bgImage={realImg1} strength={500} style={{backgroundColor:"#3c3c3c"}}>
+            <Parallax bgImage='https://ik.imagekit.io/dqe4fvjcky/H2_Square/img10-min_o-eOuqMSzC.jpg?updatedAt=1691328959541' strength={500} style={{backgroundColor:"#3c3c3c"}}>
                 <div className='d-flex aboutMain' id="about">
                     <Fade>
                         <div className='aboutData'>

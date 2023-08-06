@@ -3,6 +3,7 @@ video{
   height: auto;
   margin-top: -5em;
   /* position: absolute; */
+  background-color: #3c3c3c;
 }
 
 .navbar {

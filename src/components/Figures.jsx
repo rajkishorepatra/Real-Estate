@@ -1,7 +1,5 @@
 import React from 'react'
 import chess from '../img/chess.png'
-// import { FaRegHandshake } from 'react-icons/fa'
-// import { ImClipboard } from 'react-icons/im'
 import { Fade } from 'react-reveal'
 
 function Figures() {
