@@ -1,16 +1,18 @@
 import React from 'react'
-import bgimg from '../img/bgimg.jpg'
-import { Parallax } from 'react-parallax'
 import '../App.css'
-import { Roll, Fade } from 'react-reveal'
+import vdo from '../img/h2square.mp4'
+// import { Roll, Fade } from 'react-reveal'
 
 function Hero() {
     return (
         <>
-            <Parallax blur={2} bgImage={bgimg} bgImageStyle={{ maxHeight: "100vh", width: "100vw" }} strength={500}>
-                <div className='text-center text-white pt-5 px-5' style={{ marginTop: "22vh" }}>
+            <video autoPlay loop muted id='home'>
+                <source src={vdo}/>
+            </video>
+
+            {/* <div className='text-center text-white pt-5 px-5' style={{backdropFilter:"blur(1px)", zIndex:"100"}}>
                     <Fade bottom>
-                        <h1 className='text-white my-4'>A PLETHORA OF LUXURY</h1>
+                        <h1 className='text-white my-4'>PINACLE OF EXCLUSIVE LIVING</h1>
                     </Fade>
                     <div className='d-flex justify-content-center my-4'>
                         <Fade right>
@@ -24,11 +26,9 @@ function Hero() {
                         </Fade>
                     </div>
                     <Fade top>
-                        <h1 className='my-3'>Welcome To World-class residences in the heart of the city</h1>
+                        <h1 className='my-3' style={{letterSpacing:"2px"}}>EXPERIENCE A CLASS BEYOND ELITE</h1>
                     </Fade>
-                </div>
-                <div style={{ height: '40vh' }} />
-            </Parallax>
+                </div> */}
         </>
     )
 }

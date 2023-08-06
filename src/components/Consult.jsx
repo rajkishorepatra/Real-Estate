@@ -1,18 +1,18 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
-import realImg1 from '../img/bgimg1.jpg'
+import realImg1 from '../img/bgimg.jpg'
 import { Button } from 'react-bootstrap'
 import { Fade } from 'react-reveal'
 
 function Consult() {
     return (
         <>
-            <Parallax bgImage={realImg1} bgImageStyle={{ maxHeight: "100vh", width: "100vw" }} strength={500}>
-                <div className='d-flex aboutMain'>
+            <Parallax bgImage={realImg1} strength={500} style={{width:"100vw"}}>
+                <div className='d-flex aboutMain' id='contact'>
                     <Fade>
                         <div className='aboutData1 text-white'>
                             <h1 style={{ fontWeight: "bold" }} className='mb-4'>Get in touch with us</h1>
-                            <p style={{ fontWeight: "bold" }}>Our experts and developers would love to contribute their expertise and insights and help you today. Our experts and developers would love to contribute.</p>
+                            <p style={{ fontWeight: "600" }}>Our experts and developers would love to contribute their expertise and insights and help you today. Our experts and developers would love to contribute.</p>
                         </div>
                     </Fade>
                     <div className='aboutData2'>

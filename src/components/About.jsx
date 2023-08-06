@@ -1,26 +1,29 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
-import realImg1 from '../img/real-estate-2.jpg'
-import { Button} from 'react-bootstrap'
+import realImg1 from '../img/img10.jpg'
+import { Button } from 'react-bootstrap'
 import { Fade } from 'react-reveal'
 
 function About() {
     return (
         <>
-            <Parallax bgImage={realImg1} bgImageStyle={{ maxHeight: "100vh", width: "100vw" }} strength={500}>
-                <div className='d-flex aboutMain'>
+        
+            <Parallax bgImage={realImg1} strength={500} style={{backgroundColor:"#3c3c3c"}}>
+                <div className='d-flex aboutMain' id="about">
                     <Fade>
                         <div className='aboutData'>
-                            <h3 style={{ fontWeight: "bold" }} className='mb-4'>About our agency</h3>
-                            <p>With over $2 Billion in sales, Our agency is the industry’s top luxury producer with over 27 years of experience in marketing Seattles’s most prestigious waterfront properties.<br /><br />
-                                Due to our unparalleled results, expertise and dedication, we rank amongst the Top 6 agencies in Seattle and our area. She is also and is an elite member to Corcoran’s Presidents Council.<br /><br />
-                                Due to our unparalleled results, expertise and dedication, we rank amongst the Top 6 agencies in Seattle and our area. She is also and is an elite member to Corcoran’s Presidents Council. </p>
+                            <h3 style={{ fontWeight: "bold" }} className=''>About HP Square</h3>
+                            <p>“HP SQUARE” is a private, secure, gated community that sprawls over 2.2 acres. Spacious, thoughtfully designed homes. Every element of the apartment is of premium quality, focusing on the ethereal. The project HP is located Heart of the city with ample Open Space. There will be a sky bridge between Tower A & B.<br/>
+
+                                The project will have limited edition of homes with 262 units of 2/3/3.5/4.5 BHK homes with 5-star amenities.  These superbly designed, modern-contemporary marvels gives you a spectacular view from every floor.
+                                “HP SQUARE” comes studded with amazing amenities like: Indoor amenities: Banquet Hall, Gymnasium, Indoor games, Barbeque counter, Swimming pool, Kids Pool, Jacuzzi, Deck with cabana, Business Lawn, Chess Court, Outdoor amenities:  Social gathering lawn, Pergola, Shallow water deck, Pool cabana, Linear Garden, Community lawn, kids multiply, Badminton, Basketball court, Yoga Lawn, Mediation Deck, Star gazing lawn, Terrace Garden, Jogging track, Resting Square, Community Hall, Gymnasium Games Room, Barbeque counter, Card Room, Multi activity room (Lounge-AV Room-Library) and Sky lit Atrium to bask under the stars.
+                                “HP SQUARE” has everything that’s built to last. Each home is designed to let in the utmost air and light.</p>
                         </div>
                     </Fade>
                     <div className='aboutData1 text-white'>
-                        <h1>REQUEST A FREE CONSULTATION</h1>
-                        <p>Our experts and developers would love to contribute their expertise and insights and help you today. Our experts and developers.</p>
-                        <Button className='mt-5'>Contact Us</Button>
+                        <h1>CONTACT US FOR CONSULTATION</h1>
+                        <p>Our experts and developers would love to contribute their<br /> expertise and insights and help you today.</p>
+                        <Button className='mt-5' href='#contact'>Contact Us</Button>
                     </div>
                 </div>
             </Parallax>

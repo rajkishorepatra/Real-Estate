@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-bootstrap';
 import { FaBars, FaTimes } from 'react-icons/fa'
+import logo from '../img/logo.png'
 
 
 function NavBar() {
@@ -14,13 +15,13 @@ function NavBar() {
             <nav className="navbar text-white position-sticky top-0" onClick={e => e.stopPropagation()}>
                 <div className="nav-container">
                     <NavLink exact to="/" className="nav-logo">
-                        RealEstate
+                        <img src={logo} alt='logo' width={150}/>
                     </NavLink>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
                             <NavLink
                                 exact
-                                to="/"
+                                href="#home"
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={click ? handleClick : null}
@@ -31,7 +32,7 @@ function NavBar() {
                         <li className="nav-item">
                             <NavLink
                                 exact
-                                to="/about"
+                                href='#about'
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={click ? handleClick : null}
@@ -42,18 +43,18 @@ function NavBar() {
                         <li className="nav-item">
                             <NavLink
                                 exact
-                                to="/blog"
+                                href='#gallery'
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={click ? handleClick : null}
                             >
-                                Blog
+                                Gallery
                             </NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink
                                 exact
-                                to="/contact"
+                                href="#contact"
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={click ? handleClick : null}
